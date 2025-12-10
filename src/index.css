@@ -1,0 +1,28 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Global Tokens */
+  --primary: #FFD500;
+  --primary-hover: #E6C200;
+  --dark: #141414;
+  --dark-glass: rgba(20, 20, 20, 0.95);
+  --light: #F8F9FA;
+  --white: #FFFFFF;
+  --gray: #8E8E93;
+  --border: #E5E5EA;
+  
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+  --shadow-md: 0 12px 24px -6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 20px 40px -10px rgba(0,0,0,0.15);
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
